@@ -1,5 +1,5 @@
 galaxy_info:
-  role_name: namelivia.likeandsharetwitterbot
+  role_name: namelivia.like-and-share-twitter-bot
   author: José Ignacio Amelivia Santiago <jignacio.amelivia@gmail.com>
   description: Ansible role I use to install and configure namelivia/like-and-share-twitter-bot
   license: GPLv2
