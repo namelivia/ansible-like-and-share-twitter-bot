@@ -19,15 +19,15 @@
 
 - name: Create app container
   docker_container:
-    name: "{{application_name}}"
-    image: "namelivia/{{application_name}}:0.0.4"
+    name: "{{ application_name }}"
+    image: "namelivia/{{ application_name }}:0.0.4"
     restart_policy: "always"
     memory: "50MB"
     log_driver: "awslogs"
     log_options:
-        awslogs-region: "{{cloudwatch_region}}"
-        awslogs-group: "{{cloudwatch_log_group}}"
-        awslogs-stream: "{{application_name}}"
+      awslogs-region: "{{ cloudwatch_region }}"
+      awslogs-group: "{{ cloudwatch_log_group }}"
+      awslogs-stream: "{{ application_name }}"
     env:
       CONSUMER_KEY: "{{ consumer_key }}"
       CONSUMER_SECRET: "{{ consumer_secret }}"
