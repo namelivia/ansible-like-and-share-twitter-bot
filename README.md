@@ -11,7 +11,7 @@ collections:
   - community.docker
 
 roles:
-  - src: https://github.com/namelivia/namelivia.like-and-share-twitter-bot
+  - src: https://github.com/namelivia/ansible-like-and-share-twitter-bot
 ```
 
 ## Required variables
