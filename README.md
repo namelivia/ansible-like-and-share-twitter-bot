@@ -1,4 +1,4 @@
-# Like And Share Twitter Bot Ansible role
+# Like And Share Twitter Bot Ansible role [![Ansible Lint](https://github.com/namelivia/ansible-like-and-share-twitter-bot/actions/workflows/ansible-lint.yml/badge.svg)](https://github.com/namelivia/ansible-like-and-share-twitter-bot/actions/workflows/ansible-lint.yml)
 
 ## This is a WIP
 
