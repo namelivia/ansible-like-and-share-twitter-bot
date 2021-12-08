@@ -21,6 +21,7 @@
     name: "{{ application_name }}"
     image: "namelivia/{{ application_name }}:latest"
     restart_policy: "always"
+    pull: true
     memory: "50MB"
     log_driver: "awslogs"
     log_options:
